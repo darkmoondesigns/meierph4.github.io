@@ -1,0 +1,1 @@
+search for 33% in panoramaStudioViewer.js and set to 0% to remove top right corner info.

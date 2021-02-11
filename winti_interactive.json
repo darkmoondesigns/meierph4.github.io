@@ -1,0 +1,96 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#000; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 400; text-align:left; border-radius: 3px; border: rgba(0,0,0,0.66) solid 1px; box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.66);background: rgba(255,255,255,0.75);"
+    },
+"include": [
+        {
+            "src": "winti_interactive_controls.json"
+        }
+    ],
+"node": {
+	"audio": {
+	        "autoplay": false,
+	        "id": "lAudio",
+	        "loop": false,
+	        "src": "wintisound.mp3"
+	    },
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "on",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 180,
+	        "maxtilt": 24.885883584241107,
+	        "minpan": 0,
+	        "mintilt": -24.885883584241107
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 0.92,
+	                "frames": 23,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_circles.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "http://www.roter-turm.ch/",
+	            "opacity": "1.00;1.00",
+	            "position": "100.1481,1.9350",
+	            "target": "_blank",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Roter Turm"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "stadtkirche_winterthur/stadtkirche_winterthur.html",
+	            "opacity": "1.00;1.00",
+	            "position": "51.9866,6.2574",
+	            "target": "_blank",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Stadtkirche"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "winti_interactive",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"winti_interactive_tiles/winti_interactive_t_1b_%0y_%0x.jpg"},"down":{"src":"winti_interactive_tiles/winti_interactive_t_1d_%0y_%0x.jpg"},"front":{"src":"winti_interactive_tiles/winti_interactive_t_1f_%0y_%0x.jpg"},"height":9886,"left":{"src":"winti_interactive_tiles/winti_interactive_t_1l_%0y_%0x.jpg"},"right":{"src":"winti_interactive_tiles/winti_interactive_t_1r_%0y_%0x.jpg"},"tilesize":618,"up":{"src":"winti_interactive_tiles/winti_interactive_t_1u_%0y_%0x.jpg"},"width":9886},{"back":{"src":"winti_interactive_tiles/winti_interactive_t_2b_%0y_%0x.jpg"},"down":{"src":"winti_interactive_tiles/winti_interactive_t_2d_%0y_%0x.jpg"},"front":{"src":"winti_interactive_tiles/winti_interactive_t_2f_%0y_%0x.jpg"},"height":4943,"left":{"src":"winti_interactive_tiles/winti_interactive_t_2l_%0y_%0x.jpg"},"right":{"src":"winti_interactive_tiles/winti_interactive_t_2r_%0y_%0x.jpg"},"tilesize":618,"up":{"src":"winti_interactive_tiles/winti_interactive_t_2u_%0y_%0x.jpg"},"width":4943},{"back":{"src":"winti_interactive_tiles/winti_interactive_t_3b_%0y_%0x.jpg"},"down":{"src":"winti_interactive_tiles/winti_interactive_t_3d_%0y_%0x.jpg"},"front":{"src":"winti_interactive_tiles/winti_interactive_t_3f_%0y_%0x.jpg"},"height":2472,"left":{"src":"winti_interactive_tiles/winti_interactive_t_3l_%0y_%0x.jpg"},"right":{"src":"winti_interactive_tiles/winti_interactive_t_3r_%0y_%0x.jpg"},"tilesize":618,"up":{"src":"winti_interactive_tiles/winti_interactive_t_3u_%0y_%0x.jpg"},"width":2472},{"back":{"src":"winti_interactive_tiles/winti_interactive_t_4b_%0y_%0x.jpg"},"down":{"src":"winti_interactive_tiles/winti_interactive_t_4d_%0y_%0x.jpg"},"front":{"src":"winti_interactive_tiles/winti_interactive_t_4f_%0y_%0x.jpg"},"height":1236,"left":{"src":"winti_interactive_tiles/winti_interactive_t_4l_%0y_%0x.jpg"},"right":{"src":"winti_interactive_tiles/winti_interactive_t_4r_%0y_%0x.jpg"},"tilesize":618,"up":{"src":"winti_interactive_tiles/winti_interactive_t_4u_%0y_%0x.jpg"},"width":1236},{"back":{"src":"winti_interactive_tiles/winti_interactive_t_5b_%0y_%0x.jpg"},"down":{"src":"winti_interactive_tiles/winti_interactive_t_5d_%0y_%0x.jpg"},"front":{"src":"winti_interactive_tiles/winti_interactive_t_5f_%0y_%0x.jpg"},"height":618,"left":{"src":"winti_interactive_tiles/winti_interactive_t_5l_%0y_%0x.jpg"},"right":{"src":"winti_interactive_tiles/winti_interactive_t_5r_%0y_%0x.jpg"},"tilesize":618,"up":{"src":"winti_interactive_tiles/winti_interactive_t_5u_%0y_%0x.jpg"},"width":618}],"multilevel":true,"preview":{"src":"winti_interactive_tiles/winti_interactive_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 74.66,
+	        "pan": 38.01,
+	        "tilt": 2.98
+	    }
+},
+"version": "4.1"
+}
+}
