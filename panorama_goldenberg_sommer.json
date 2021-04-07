@@ -1,0 +1,96 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#000; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 400; text-align:left; border-radius: 3px; border: rgba(0,0,0,0.66) solid 1px; box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.66);background: rgba(255,255,255,0.75);"
+    },
+"include": [
+        {
+            "src": "panorama_goldenberg_sommer_controls.json"
+        }
+    ],
+"node": {
+	"audio": {
+	        "autoplay": false,
+	        "id": "lAudio",
+	        "loop": true,
+	        "src": "wintisound.mp3"
+	    },
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 25,
+	        "status": "on",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 180,
+	        "maxtilt": 22.53154047288546,
+	        "minpan": 0,
+	        "mintilt": -22.53154047288546
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "Stadtkirche/Stadtkirche.html",
+	            "opacity": "1.00;1.00",
+	            "position": "76.7775,5.5239",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Stadtkirche"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "sulzer_hochhaus/Sulzer_Hochhaus.html",
+	            "opacity": "1.00;1.00",
+	            "position": "96.0218,2.3294",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Sulzer Hochhaus"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "panorama_goldenberg_sommer",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_1b_%0y_%0x.jpg"},"down":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_1d_%0y_%0x.jpg"},"front":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_1f_%0y_%0x.jpg"},"height":12635,"left":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_1l_%0y_%0x.jpg"},"right":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_1r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_1u_%0y_%0x.jpg"},"width":12635},{"back":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_2b_%0y_%0x.jpg"},"down":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_2d_%0y_%0x.jpg"},"front":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_2f_%0y_%0x.jpg"},"height":6318,"left":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_2l_%0y_%0x.jpg"},"right":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_2r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_2u_%0y_%0x.jpg"},"width":6318},{"back":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_3b_%0y_%0x.jpg"},"down":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_3d_%0y_%0x.jpg"},"front":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_3f_%0y_%0x.jpg"},"height":3159,"left":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_3l_%0y_%0x.jpg"},"right":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_3r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_3u_%0y_%0x.jpg"},"width":3159},{"back":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_4b_%0y_%0x.jpg"},"down":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_4d_%0y_%0x.jpg"},"front":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_4f_%0y_%0x.jpg"},"height":1580,"left":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_4l_%0y_%0x.jpg"},"right":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_4r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_4u_%0y_%0x.jpg"},"width":1580},{"back":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_5b_%0y_%0x.jpg"},"down":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_5d_%0y_%0x.jpg"},"front":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_5f_%0y_%0x.jpg"},"height":790,"left":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_5l_%0y_%0x.jpg"},"right":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_5r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_5u_%0y_%0x.jpg"},"width":790},{"back":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_6b_%0y_%0x.jpg"},"down":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_6d_%0y_%0x.jpg"},"front":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_6f_%0y_%0x.jpg"},"height":395,"left":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_6l_%0y_%0x.jpg"},"right":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_6r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_t_6u_%0y_%0x.jpg"},"width":395}],"multilevel":true,"preview":{"src":"panorama_goldenberg_sommer_tiles/panorama_goldenberg_sommer_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 67.59,
+	        "pan": 34.4,
+	        "tilt": 3.09
+	    }
+},
+"version": "4.1"
+}
+}
